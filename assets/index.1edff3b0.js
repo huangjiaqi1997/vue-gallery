@@ -1,0 +1,1 @@
+import{_ as a}from"./pins.2997039d.js";import{o,c as r,a as t}from"./vendor.6a4b3e84.js";import"./pexels.87ac59e2.js";import"./index.bf3235d2.js";const s={class:"w-full h-full bg-zinc-200 dark:bg-zinc-800"},p={__name:"index",setup(c){return(e,i)=>(o(),r("div",s,[t(a,{id:e.$route.params.id},null,8,["id"])]))}};export{p as default};
