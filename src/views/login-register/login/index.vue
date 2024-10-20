@@ -125,8 +125,8 @@ const onCaptchaSuccess = async () => {
 const loading = ref(false)
 // 用户输入的用户名和密码
 const loginForm = ref({
-  username: '',
-  password: ''
+  username: 'imooc',
+  password: '123456'
 })
 /**
  * 用户登录行为
