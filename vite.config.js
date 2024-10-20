@@ -31,5 +31,9 @@ export default defineConfig({
         changeOrigin: true
       }
     }
+  },
+  base: process.env.NODE_ENV === 'production' ? '/vue-gallery/' : '/',
+  build: {
+    outDir: 'docs' // 打包后的文件输出到docs目录
   }
 })
